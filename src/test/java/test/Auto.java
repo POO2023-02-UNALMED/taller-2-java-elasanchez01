@@ -32,14 +32,15 @@ public class Auto {
 				{
 					if (asientos[i].registro != registro)
 					{
-						return "Las piezas no son originales"
+						return "Las piezas no son originales";
 					}
 				}
 			}
 			return "Auto original";
 		}
 		else {
-				return "Las piezas no son originales"
+				return "Las piezas no son originales";
 		}
 	}
+}
 
